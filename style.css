@@ -1,0 +1,39 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;     /* horizontales zentrieren */
+    align-items: center;         /* vertikales zentrieren */
+    margin: 0;                   /* margin auto entfernen */
+    height: 100vh;               /* nimmt sonst einfach die Höhe des body */
+}
+
+div {
+    max-width: 400px;
+    border: 5px solid;
+    border-color: grey;
+    background-color: whitesmoke;
+
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1, ol {
+    margin: 20px;
+}
+
+p, li {
+    margin: 10px;
+}
+
+h1 {
+    background-color: lightgreen;
+}
