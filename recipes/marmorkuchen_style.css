@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-color: grey;
+    font-size: 1.5em;
+}
+
+a:link {
+    color: black;
+    padding: 10px 15px;
+}
+
+div {
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: whitesmoke;
+    border: 5px solid grey;
+}
+
+h1, h2, h3 {
+    background-color: lightgreen;
+    margin: 20px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
+
+li {
+    text-align: left;
+}
+
+li, p {
+    margin: 10px;
+}
+
+ol li {
+    margin: 20px;
+}
